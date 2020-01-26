@@ -146,9 +146,11 @@ i{
     font-size: .8rem;
 }
 a>h2{
+    text-decoration: none;
     font-size: .8rem;
 }
 a>h1{
+    text-decoration: none;
     font-size: 1.2rem;
 }
 
@@ -238,6 +240,8 @@ a>p{
         font-size: 1.1rem;
     }
     .box-1,.box-2,.box-3{
-        margin-top: 40vh;
+        margin-top: 50vh;
     }
 }
+
+
