@@ -189,7 +189,9 @@ a>p{
     visibility: hidden;
 }
 
-@media (max-width:1020px){
+
+
+@media (max-width:1024px){
     
     *{
         font-size: 16px;
@@ -202,12 +204,12 @@ a>p{
         padding-right: 10%;
     }
     .left{
-    padding-left: 4vw;
+        margin: 2vh 7vw 2vh 5vw;
 
     }
 
     .right{
-     padding-right: 11vw;
+        margin: 2vh 7vw 2vh 5vw;
     }
 
     .link{
@@ -218,11 +220,11 @@ a>p{
         
     }
     ._1,._2,._3{
-        margin-top: 2vh;
-        margin-left: 6%;
-        margin-right: 6%;
-        margin-bottom: 10;
-        width: 80vw;
+        margin: 2vh 5vw 2vh 5vw;
+        
+        
+        
+        width: 90vw;
         height: 80vh;
     }
     
@@ -230,4 +232,12 @@ a>p{
 #hambourger , #logo , #subscribe , #search {
    margin:4%;
 }
+}
+@media(max-width:334px) {
+    a>h1{
+        font-size: 1.1rem;
+    }
+    .box-1,.box-2,.box-3{
+        margin-top: 40vh;
+    }
 }
